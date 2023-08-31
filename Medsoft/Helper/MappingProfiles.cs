@@ -20,6 +20,12 @@ namespace Medsoft.Helper
             CreateMap<PatientStateDto, PatientState>();
             CreateMap<Position, PositionDto>();
             CreateMap<PositionDto, Position>();
+            CreateMap<WorkSchedule, WorkScheduleDto>();
+            CreateMap<WorkScheduleDto, WorkSchedule>();
+            CreateMap<Section, SectionDto>();
+            CreateMap<SectionDto, Section>();
+            CreateMap<Employee, EmployeeDto>();
+            CreateMap<EmployeeDto, Employee>();
         }
     }
 }

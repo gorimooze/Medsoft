@@ -104,7 +104,7 @@ namespace Medsoft.Controllers
                 return NotFound();
             }
 
-            var stateToDelete = _patientStateRepository.GetPatientState(stateId);
+            var stateToDelete = _patientStateRepository.GetById(stateId);
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

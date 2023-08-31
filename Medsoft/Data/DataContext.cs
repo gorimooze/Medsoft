@@ -16,5 +16,8 @@ namespace Medsoft.Data
         public DbSet<Admission> Admissions { get; set; }
         public DbSet<PatientState> PatientState { get; set; }
         public DbSet<Position> Position { get; set; }
+        public DbSet<WorkSchedule> WorkSchedule { get; set; }
+        public DbSet<Section> Section { get; set; }
+        public DbSet<Employee> Employee { get; set; }
     }
 }
